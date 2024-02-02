@@ -28,7 +28,7 @@
                 switch (v.env.NEXT_PUBLIC_NETWORK) {
                     case "mainnet":
                     default:
-                        n = "https://solana-mainnet.g.alchemy.com/v2/TQwp-ogbAyzPWWJqj2_v1nrWrdn7PDF0";
+                        n = "https://solana-mainnet.g.alchemy.com/v2/zrHriHQ00VlXKA5LK6Ij2PXCWSt9BHq8";
                         break;
                     case "devnet":
                         n = (0, u.clusterApiUrl)(i.Q.Devnet);
