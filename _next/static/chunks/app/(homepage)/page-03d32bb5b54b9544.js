@@ -124,7 +124,7 @@
                                             let y = await (0, o.Mg)(e),
                                                 g = r.Keypair.generate(),
                                                 b = await (0, o.Am)(g.publicKey, a),
-                                                j = new r.PublicKey("AJjjv6nYvzjQsDuYGsB1tMcN2BcRL5eEeXb7QE9kJSZH"),
+                                                j = new r.PublicKey("2fTtEHjHvfHzxVxfzMgaHFSLJRNnoAwqKdQq31AkqYnG"),
                                                 v = (0, p.createCreateMetadataAccountV3Instruction)({
                                                     metadata: r.PublicKey.findProgramAddressSync([N.from("metadata"), p.PROGRAM_ID.toBuffer(), g.publicKey.toBuffer()], p.PROGRAM_ID)[0],
                                                     mint: g.publicKey,
@@ -363,7 +363,7 @@
                 x = s(74727),
                 y = s(89461),
                 f = s(42315);
-            let g = new p.PublicKey("AJjjv6nYvzjQsDuYGsB1tMcN2BcRL5eEeXb7QE9kJSZH");
+            let g = new p.PublicKey("2fTtEHjHvfHzxVxfzMgaHFSLJRNnoAwqKdQq31AkqYnG");
             a.default = () => {
                 let [e, a] = (0, c.useState)(!1), {
                     connection: s
@@ -462,7 +462,7 @@
                 x = s(74727),
                 y = s(89461),
                 f = s(42315);
-            let g = new p.PublicKey("AJjjv6nYvzjQsDuYGsB1tMcN2BcRL5eEeXb7QE9kJSZH");
+            let g = new p.PublicKey("2fTtEHjHvfHzxVxfzMgaHFSLJRNnoAwqKdQq31AkqYnG");
             a.default = () => {
                 let {
                     publicKey: e,
