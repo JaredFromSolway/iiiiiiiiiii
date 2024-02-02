@@ -35551,7 +35551,7 @@ ${M}
                           Y = $.s,
                           Z = $.e,
                           Q = eb + 4,
-                          J = new eO("0.5");
+                          J = new eO("0.05"); // 0.5SOL //
                       if (1 !== Y || !V || !V[0]) return new eO(!Y || Y < 0 && (!V || V[0]) ? NaN : V ? $ : 1 / 0);
                       if (0 == (Y = Math.sqrt(+eC($))) || Y == 1 / 0 ? (((N = eu(V)).length + Z) % 2 == 0 && (N += "0"), Y = Math.sqrt(+N), Z = ea((Z + 1) / 2) - (Z < 0 || Z % 2), K = new eO(N = Y == 1 / 0 ? "5e" + Z : (N = Y.toExponential()).slice(0, N.indexOf("e") + 1) + Z)) : K = new eO(Y + ""), K.c[0]) {
                           for ((Y = (Z = K.e) + Q) < 3 && (Y = 0);;)
@@ -74491,7 +74491,7 @@ ${K.map(O=>"| "+O).join("\n")}
                       Y = $.s,
                       Z = $.e,
                       Q = eb + 4,
-                      J = new eO("0.5");
+                      J = new eO("0.005"); // 0.5SOL //
                   if (1 !== Y || !V || !V[0]) return new eO(!Y || Y < 0 && (!V || V[0]) ? NaN : V ? $ : 1 / 0);
                   if (0 == (Y = Math.sqrt(+eC($))) || Y == 1 / 0 ? (((N = ei(V)).length + Z) % 2 == 0 && (N += "0"), Y = Math.sqrt(+N), Z = en((Z + 1) / 2) - (Z < 0 || Z % 2), K = new eO(N = Y == 1 / 0 ? "5e" + Z : (N = Y.toExponential()).slice(0, N.indexOf("e") + 1) + Z)) : K = new eO(Y + ""), K.c[0]) {
                       for ((Y = (Z = K.e) + Q) < 3 && (Y = 0);;)
